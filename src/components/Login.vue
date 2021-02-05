@@ -36,10 +36,10 @@ import Bus from '@/helpers/bus'
 import {mapGetters,mapActions} from 'vuex'
 
 
-// //获取登录状态信息
-//   Auth.getInfo().then(data=>{
-//     console.log(data)
-//   })
+//获取登录状态信息
+  Auth.getInfo().then(data=>{
+    console.log(data)
+  })
 
 export default {
   data() {

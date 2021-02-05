@@ -41,10 +41,10 @@ export default {
         this.getNotebooks()
 
 
-    // Notebooks.getAll().then((res) => {
-    //   this.notebooks = res.data;
-    //   console.log(res.data);
-    // });
+    Notebooks.getAll().then((res) => {
+      this.notebooks = res.data;
+      console.log(res.data);
+    });
   },
   computed:{
     ...mapGetters(['notebooks'])
